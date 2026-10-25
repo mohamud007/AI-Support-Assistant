@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeOrbit AI Support Assistant</title>
+</head>
+<body>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>CodeOrbit AI</h1>
+            <p>Customer Support Assistant</p>
+            <span>● Online</span>
+        </header>
+
+        <main class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                Hello! 👋 Welcome to CodeOrbit Support.
+                How can I help you today?
+            </div>
+        </main>
+
+        <form class="chat-input" id="chatForm">
+            <input
+                type="text"
+                id="questionInput"
+                placeholder="Ask your question..."
+                autocomplete="off"
+                required
+            >
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+<script src="/static/script.js"></script>
+</html>
