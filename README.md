@@ -12,6 +12,11 @@ An AI-powered customer support chatbot built with **Python, FastAPI, Sentence Tr
 - **Responsive interface** designed to work on desktop and mobile screens.
 - **Relevance threshold** to help avoid returning answers when a match is too weak.
 
+## Screenshot
+**Home Page**
+
+![Home](https://github.com/mohamud007/AI-Support-Assistant/blob/main/Screenshot%202026-10-25%20190249.png)
+
 ## Technology Stack
 
 | Technology | Purpose |
